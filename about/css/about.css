@@ -1,0 +1,59 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Css is how we add all things style, below there are two simple styles added
+go ahead and play with these, can you get the colors to change? What do you notice?
+ */
+
+body {
+
+    color:#F7F7E3;
+    background-color:#322A26;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.iosevka-charon-mono-light {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color:#26C485;
+}
+
+nav{
+ text-align: center;
+ 
+}
+
+nav a{
+    margin:0 20px;
+    text-decoration:0;
+    font-family: "Iosevka Charon Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    color:#EE4266;
+   
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
