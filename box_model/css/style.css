@@ -1,0 +1,97 @@
+/* first, let's follow best practices and cancel out default margins with the universal selector */
+* {
+    margin:0;
+    padding:0;
+}
+
+/* now we can control our margins ourselves, so lets give the body a 50px margin on the left and right; and a 25px margin on the top and bottom.
+
+can you write it in shorthand?*/
+
+body {
+   margin-left:50px;
+   margin-right:50px;
+   margin-top:25px;
+   margin-bottom:25px;
+
+}
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Find a custom font on Google Fonts and add it to the HTML head and your CSS: make sure you add the links and the font-family */
+
+/* Style the h1:
+   10px margin on the bottom
+   10px padding on the top and bottom
+   15px padding on the right and left
+   and a solid black border that is 1px thick
+   center the text and make it uppercase in CSS (do not retype it as uppercase in your HTML)
+   add a background color with 50% opacity
+*/
+h1 {
+   margin-bottom:10px;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:15px;
+   padding-right:15px;
+   border: 1px solid black;
+   background-color:rgb(229 255 0 / 50%);
+   text-align: center;
+}
+
+h2 {
+   margin-top: 2.5%;
+   margin-bottom: 2.55%;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:15px;
+   padding-right:15px;
+   border: dotted thick black;
+   background-color:yellow
+
+}
+
+p {
+   background-color:blue;
+   color:white;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:15px;
+   padding-right:15px;
+   border:solid black;
+
+}
+
+code {
+  background-color: #ffffff;
+  color: #008000;
+  border: 1px solid #008000;
+  padding: 4px 8px;
+}
+
+li {
+   background-color:rgb(0, 156, 26);
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:15px;
+   padding-right:15px;
+   border: 2px solid red;
+   list-style:none;
+   color:white;
+}
+
+a {
+font-size:36px;
+background-color:yellow;
+text-decoration:none;
+border: 10px solid black;
+color: black;
+}
+
+
+
+
