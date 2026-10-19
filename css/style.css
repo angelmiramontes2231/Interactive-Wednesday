@@ -4,18 +4,34 @@ for now, you can leave these alone */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Css is how we add all things style, below there are two simple styles added
-go ahead and play with these, can you get the colors to change? What do you notice?
- */
+
+* {
+	box-sizing: border-box;
+}
+
 
 body {
 
     color:#F7F7E3;
     background-color:#322A26;
 }
+
+
+header {
+	background-color: #F2F2F2;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+#logo {
+	width: 12%;
+    }
+
 
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
