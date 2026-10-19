@@ -29,7 +29,7 @@ header {
 
 
 #logo {
-	width: 12%;
+	width: 5%;
     }
 
 
@@ -64,6 +64,7 @@ nav a{
     font-weight: 300;
     font-style: normal;
     color:#EE4266;
+    font-size: small;
    
 }
 
