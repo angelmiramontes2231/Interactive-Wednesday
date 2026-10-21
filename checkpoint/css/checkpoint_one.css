@@ -1,58 +1,62 @@
-/* the * indicates universal styles, we will get into that later in the semester
-for now, you can leave these alone */
+* { margin: 0;
+	padding: 0;
+}
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-/* Css is how we add all things style, below there are two simple styles added
-go ahead and play with these, can you get the colors to change? What do you notice?
- */
-
 body {
-
-    color:#F7F7E3;
-    background-color:#322A26;
+	background-color: #DBCEC3;
+	color: #F2F2F2;
+    font-family: "Fira Sans", sans-serif;
 }
 
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    justify-content: center;
 }
 
-.iosevka-charon-mono-light {
-  font-family: "Iosevka Charon Mono", monospace;
-  font-weight: 300;
-  font-style: normal;
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
 }
 
-
-h1{
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    color:#26C485;
+a {
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px #0d0d0d;
+	font-size: 18px;
 }
 
-nav{
- text-align: center;
- 
+p{
+    color: #592219;
+	font-family: font-family: "Fira Sans", sans-serif;
 }
 
-nav a{
-    margin:0 20px;
-    text-decoration:0;
-    font-family: "Iosevka Charon Mono", monospace;
-    font-weight: 300;
-    font-style: normal;
-    color:#EE4266;
-   
+h1 {
+	color: #592219;
+	text-shadow: 1px 1px #C7B89C;
+	font-size: 48px;
+	text-align: center;
+	letter-spacing: .0125em;
+	align-self: center;
+    font-family: "Monsieur La Doulaise", cursive;
 }
 
-h2{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+a:hover {
+	text-decoration: overline;
+	color: #0d0d0d;
+	text-shadow: -1px -1px #C7B89C;
 }
+	h2,h3 {
+		text-align: center;
+        color:#592219;
+	}
