@@ -51,5 +51,9 @@ h1 {
 	letter-spacing: .0125em;
 	align-self: center;
     font-family: "Monsieur La Doulaise", cursive;
+	transition-duration: 5s;
 }
 
+h1:hover{
+	transform: rotate(900deg) translate(1000px, 100px);
+}
