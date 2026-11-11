@@ -1,59 +1,70 @@
-* { margin: 0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-* {
-    box-sizing: border-box;
+html,
+body {
+  width: 100%;
+  min-height: 100%;
 }
 
 body {
-	background-color: #DBCEC3;
-	color: #F2F2F2;
-    font-family: "Fira Sans", sans-serif;
+  background-color: #DBCEC3;
+  color: #F2F2F2;
+  font-family: "Fira Sans", sans-serif;
 }
 
 header {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-
 nav {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
-	align-items: center;
-	width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1rem 1.5rem;
+width: 100%;
+padding: 1rem;
 }
 
 a {
-	text-decoration: none;
-	color: white;
-	text-shadow: 1px 1px #0d0d0d;
-	font-size: 18px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px #0d0d0d;
+  font-size: 18px;
 }
 
 a:hover {
-	text-decoration: overline;
-	color: #0d0d0d;
-	text-shadow: -1px -1px #C7B89C;
+  text-decoration: overline;
+  color: #0d0d0d;
+  text-shadow: -1px -1px #C7B89C;
 }
 
 h1 {
-	color: #592219;
-	text-shadow: 1px 1px #C7B89C;
-	font-size: 48px;
-	text-align: center;
-	letter-spacing: .0125em;
-	align-self: center;
-    font-family: "Monsieur La Doulaise", cursive;
-	transition-duration: 5s;
+  color: #592219;
+  text-shadow: 1px 1px #C7B89C;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.0125em;
+  align-self: center;
+  font-family: "Monsieur La Doulaise", cursive;
+  transition-duration: 5s;
 }
 
-h1:hover{
-	transform: rotate(900deg) translate(1000px, 100px);
+h1:hover {
+  transform: rotate(900deg) translate(1000px, 100px);
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: row;
+    gap: 0.75rem;
+  }
 }
